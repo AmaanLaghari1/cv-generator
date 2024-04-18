@@ -1,11 +1,11 @@
 <?php
 
-require_once('./lib/classes/Helper.php');
-require_once('./lib/classes/Database.php');
-require_once('./lib/classes/Session.php');
-require_once('./lib/classes/Views.php');
-require_once('./lib/classes/Custom.php');
-require_once('./lib/classes/Action.php');
+require_once('classes/Helper.php');
+require_once('classes/Database.php');
+require_once('classes/Session.php');
+require_once('classes/Views.php');
+require_once('classes/Custom.php');
+require_once('classes/Action.php');
 
 $action = new Action();
 
